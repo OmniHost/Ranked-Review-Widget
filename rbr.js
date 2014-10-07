@@ -43,8 +43,8 @@ jQuery(document).ready(function() {
 
                     html += '</div>';
                     html += '<div class="buttons clearfix">';
-                    html += '<a href="' + dataWeGotViaJsonp.reviews.business_url + '" target="_blank" class="btn btn-right">View More Reviews</a>';
-                    html += '<a href="' + dataWeGotViaJsonp.reviews.business_review_url + '" target="_blank" class="btn btn-left">Place a Review</a>';
+                      html += '<a href="' + dataWeGotViaJsonp.business_url + '" target="_blank" class="btn btn-right">View More Reviews</a>';
+                    html += '<a href="' + dataWeGotViaJsonp.business_review_url + '" target="_blank" class="btn btn-left">Place a Review</a>';
                     html += '</div>';
 
                     jQuery(j).find('.inner').html(html);

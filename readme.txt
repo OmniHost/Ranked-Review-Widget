@@ -14,4 +14,5 @@ use the following shortcode:
 update the heading and businessId to your values.
 
 == Changelog ==
+V1.0.1 - Minor Js Fix
 V1.0.0 - Inital Release
